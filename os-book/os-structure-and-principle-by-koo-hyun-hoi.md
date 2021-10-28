@@ -55,7 +55,7 @@
 - 메인 메모리 : 프로세서 외부에 있으며, 프로세서에서 즉각적으로 수행할 프로그램이나 데이터 저장하거나 프로세서 처리 결과를 메인 메모리에 저장. 입출력 장치도 메인 메모리에서 데이터를 받거나 저장.
   - 다수의 셀로 구성. 각 셀은 비트로 구성. 데이터는 셀 한 개나 여러 개에 나눠서 저장. 셀은 주소로 참조 -> 물리적 주소.
 
-<img src="https://user-images.githubusercontent.com/57519837/139276233-8c1dfa6e-3b30-4ce3-b6d6-b6dd1063e3c7.png" width = "50%" height = "10%" >
+<img src="https://user-images.githubusercontent.com/57519837/139276233-8c1dfa6e-3b30-4ce3-b6d6-b6dd1063e3c7.png" width = "70" height = "100" >
 
 - 
   - 
