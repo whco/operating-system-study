@@ -14,7 +14,7 @@
 ### 1장 컴퓨터 시스템의 소개
 #### 컴퓨터 하드웨어의 구성
 프로세서, 메모리, 주변장치로 구성, 시스템 버스로 연결
-![image](https://user-images.githubusercontent.com/57519837/139270659-52a5a5a4-b416-4ee7-8480-e444a1e5283c.png){: width="50" height="50"}
+<img src="https://user-images.githubusercontent.com/57519837/139270659-52a5a5a4-b416-4ee7-8480-e444a1e5283c.png" width = "50%" height = "50%" >
 
 ##### 프로세서
 연산장치, 제어장치, 레지스터로 구성, 내부 버슬 연결
