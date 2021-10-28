@@ -65,6 +65,12 @@
     - 사이클 시간 : 두 번의 연속적인 메모리 동작 사이에 필요한 최소 지연시간.
    
     - <img src="https://user-images.githubusercontent.com/57519837/139277417-f167b229-ebdf-4abb-ad0b-0c64dab5aab6.png" width = "50%" height = "50%" >
+- 캐시 : 프로세서 내부나 외부에 있으며, 처리 속도가 빠른 프로세서와 상대적으로 느린 메인 메모리의 속도 차이를 보완하는 고속 버퍼.
+  - 메인 메모리에서 데이터를 블록 단위로 가져와 프로세서에 워드 단위로 전달
+  
+  - <img src="https://user-images.githubusercontent.com/57519837/139278922-10839b1a-4416-4963-a120-670362e458ce.png" widtdh = "50%" height="50%">
+
+  - 
 
 ##### 시스템 버스
 ##### 주변장치
