@@ -19,6 +19,7 @@
 
 ##### 프로세서
 연산장치, 제어장치, 레지스터로 구성, 내부 버슬 연결
+
 <img src="https://user-images.githubusercontent.com/57519837/139270514-0971067f-0036-4155-b1d4-b92bd71473e6.png" width="50%" height="50%" >
 
 - 데이터 부분 : 레지스터, 연산장치
