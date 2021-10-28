@@ -64,7 +64,7 @@
     - 메모리 접근시간 : 명령이 발생한 후 목표 주소 검색하여 데이터 쓰기(읽기)를 시작할 때까지 걸린 시간.
     - 사이클 시간 : 두 번의 연속적인 메모리 동작 사이에 필요한 최소 지연시간.
    
-    - <img src="https://user-images.githubusercontent.com/57519837/139277417-f167b229-ebdf-4abb-ad0b-0c64dab5aab6.png" width = "1000" height = "300" >
+    - <img src="https://user-images.githubusercontent.com/57519837/139277417-f167b229-ebdf-4abb-ad0b-0c64dab5aab6.png" width = "50%" height = "50%" >
 
 ##### 시스템 버스
 ##### 주변장치
