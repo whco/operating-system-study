@@ -124,7 +124,7 @@ TCP/IP 기반의 인터넷에 연결하거나, 기타 네트워크 프로토콜�
 - 두 스레드가 같은 heap, data 등 영역을 공유
 - 윈도우, 리눅스 등 많은 운영체제들은 멀티 프로세스를 지원하지만 멀티 스레스가 기본
 - **웹 서버** 는 대표적인 멀티 스레드 응용 프로그램 이다.
-> 웹 서버 : 멀티스레드 서버, 싱글 스레드 서버  _ ```[참조](https://dheldh77.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%8B%B1%EA%B8%80%EC%8A%A4%EB%A0%88%EB%93%9C-%EC%84%9C%EB%B2%84%EC%99%80-%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%93%9C-%EC%84%9C%EB%B2%84)``` <br>
+> 웹 서버 : 멀티스레드 서버, 싱글 스레드 서버  _ [참조](https://dheldh77.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%8B%B1%EA%B8%80%EC%8A%A4%EB%A0%88%EB%93%9C-%EC%84%9C%EB%B2%84%EC%99%80-%EB%A9%80%ED%8B%B0%EC%8A%A4%EB%A0%88%EB%93%9C-%EC%84%9C%EB%B2%84) <br>
 > 멀티 스레드 서버 : 
 > <img src = "https://user-images.githubusercontent.com/57519837/143678469-02a4c116-2373-44dd-9803-76ffeea80820.png" width="30%" height="30%"> <br>
 > - 웹 서버는 내부적으로 스레드 풀 유지
@@ -133,8 +133,8 @@ TCP/IP 기반의 인터넷에 연결하거나, 기타 네트워크 프로토콜�
 > > [blocking, non-blocking IO, 동기, 비동기 개념 정리 참조](https://limdongjin.github.io/concepts/blocking-non-blocking-io.html#ibm-%E1%84%8B%E1%85%A1%E1%84%90%E1%85%B5%E1%84%8F%E1%85%B3%E1%86%AF) <br>
 > 싱글 스레드 서버 :
 > <img src = "https://user-images.githubusercontent.com/57519837/143678582-04539a09-eda1-4e87-a8be-dfebaf3955d1.png" width="30%" height="30%"> <br>
-> 서버 내부의 단일 스레드가 무한 루프를 돌며 클라이언트의 요청 대기(이벤트 루프 구조)
-> > 이벤트 루프(메시지 디스패처, 메시지 루프, 메시지 펌프, 런 루프) : 프로그램의 이벤트나 메시지를 대기하다가 디스패치하는 프로그래밍 구조체
+> 서버 내부의 단일 스레드가 무한 루프를 돌며 클라이언트의 요청 대기(이벤트 루프 구조) <br> 
+> > 이벤트 루프(메시지 디스패처, 메시지 루프, 메시지 펌프, 런 루프) : 프로그램의 이벤트나 메시지를 대기하다가 디스패치하는 프로그래밍 구조체 
 > > - 거의 무조건 메시지 제공자와 비동기식으로 동작
 > - 클라이언트는 서버에 요청 전달
 > - 서버는 복잡한 작업이나 Blocking I/O 등의 처리는 스레드 풀의 스레드에 작업을 넘기고 다음 클라이언트의 요청을 받음
