@@ -72,9 +72,9 @@ TCP/IP 기반의 인터넷에 연결하거나, 기타 네트워크 프로토콜�
   - 보류(block) : 실행 상태의 프로세스가 허가된 시간을 다 쓰기 전에 입출력 동작을 필요로 하는 경우 프로세스가 스스로 CPU를 반납하고 보류 상태로 전환.
     ``` block (processname) : running -> blocked ```
   - 깨움(wakeup) : 입출력 작업 종료 등 기다리던 사건이 일어났을 때 보류 상태에서 준비 상태로 넘어가는 과정
-    ``` wakeup (processname) : blocked -> ready
+    ``` wakeup (processname) : blocked -> ready ```
   - 시간제한(timeout) : os에서 프로세스가 프로세서를 독점하지 못하게 clock interrupt를 두어 일정 시간동안만(tss의 time slice) 프로세서를 점유할 수 있게 함.
-    ``` timeout (processname) : running -> ready
+    ``` timeout (processname) : running -> ready ```
 #### 스레드
 스레드
 - 프로세스 내에서 실행되는 여러 흐름의 단위
