@@ -85,10 +85,10 @@ TCP/IP 기반의 인터넷에 연결하거나, 기타 네트워크 프로토콜�
 - 멜론 프로세스와 크롬 프로세스가 각각의 독립적인 cpu 및 메모리 자원을 할당받음
 - 두 프로세스가 병렬로 실행
   - 병렬로 실행하는 데 왜 context switching 발생하지????
-    - > Context Switching : CPU가 한 개의 task(스레드 or 프로세스)를 실행하고 있는 상태에서 Interrupt 요청에 의해 다른 task로 실행이 전환되는 과정
-      > 에서 기존의 task 상태 및 register 값들에 대한 정보 (Context)를 저장하고 새로운 task의 Context 정보로 교체하는 작업
-      > Context : CPU가 다루는 task에 대한 정보, 대부분 register에 저장하며 PCB로 관리
-      > 프로세스는 os에 의해 PCB가 스케쥴링되고, 스레드는 프로세스 내부의 TCB(Task CB)라는 내부 구조를 통해 관리
+    > Context Switching : CPU가 한 개의 task(스레드 or 프로세스)를 실행하고 있는 상태에서 Interrupt 요청에 의해 다른 task로 실행이 전환되는 과정 <br>
+    > 에서 기존의 task 상태 및 register 값들에 대한 정보 (Context)를 저장하고 새로운 task의 Context 정보로 교체하는 작업 <br>
+    > Context : CPU가 다루는 task에 대한 정보, 대부분 register에 저장하며 PCB로 관리 <br>
+    > 프로세스는 os에 의해 PCB가 스케쥴링되고, 스레드는 프로세스 내부의 TCB(Task CB)라는 내부 구조를 통해 관리 <br>
     - 의문 해결? : 코어의 개수보다 프로세스 개수 많으면 필요할듯?
     - 오베허드 큼 : 프로세스 간 공유하는 메모리가 없어 캐시 메모리 초기화 후 다시 캐시 정보를 불러오는 등의 무거운 작업 매번 해 줘야 되기 때문
 - 하기 때문에 서로 영향을 미치지 않음
